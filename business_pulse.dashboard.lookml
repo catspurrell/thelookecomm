@@ -872,7 +872,7 @@
     explore: sessions
     type: looker_grid
     fields: [product_viewed.brand, sessions.count, sessions.cart_to_checkout_conversion,
-      product_viewed.department]
+     product_viewed.department]
     pivots: [product_viewed.department]
     filters:
       product_viewed.brand: "-NULL"
